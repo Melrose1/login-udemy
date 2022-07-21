@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LifeCycle from './lifecycle/lifecycle';
 import UseEffect from './useEffect/UseEffect';
+import Login from './login/login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Login />
     <LifeCycle />
     <UseEffect />
   </React.StrictMode>

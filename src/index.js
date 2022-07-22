@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import LifeCycle from './lifecycle/lifecycle';
 import UseEffect from './useEffect/UseEffect';
 import Login from './login/login';
+import ListsKeys from './lists-keys/lists-keys';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <Login />
     <LifeCycle />
     <UseEffect />
+    <ListsKeys />
   </React.StrictMode>
 );
 
